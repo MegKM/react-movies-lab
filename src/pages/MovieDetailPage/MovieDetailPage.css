@@ -1,0 +1,9 @@
+.movie-detail-page{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+h1, p {
+    grid-column: 1 / span 2;
+}

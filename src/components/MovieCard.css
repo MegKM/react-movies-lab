@@ -1,0 +1,22 @@
+.movie-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.movie-tiles {
+    display: flex;
+    width: 25vw;
+    height: 25vh;
+    margin: 0.5vw;
+    justify-content: center;
+}
+
+.movie-name {
+    background-color: white;
+    color: black;
+    width: 12vw;
+    height: 4vw;
+    margin-top: 1vh;
+    border-radius: 10%;
+}
